@@ -11,8 +11,6 @@ const oneSignalAppId =
 
 OneSignal.initialize(oneSignalAppId || "");
 
-console.log(process.env.EXPO_PUBLIC_ONE_SIGNAL_IOS);
-
 export default function RootLayout() {
   const [notification, setNotification] = useState<OSNotification>();
 

@@ -38,7 +38,32 @@ As variáveis de ambiente necessárias para o projeto são obtidas no painel do 
 - EXPO_PUBLIC_ONE_SIGNAL_ANDROID= IDs dos apps gerados no OneSignal.
 - EXPO_PUBLIC_ONE_SIGNAL_IOS= IDs dos apps gerados no OneSignal.
 
-## Deploy EAS
+## Deploy EAS (Expo Application Services)
+
+#### Se ainda não tiver o CLI na máquina, instale globalmente
+
+```bash
+npm install -g eas-cli
+```
+
+#### Faça login na conta do EAS
+
+```bash
+eas login
+```
+
+#### Inicialize e faça o link do projeto com o EAS
+
+```bash
+eas init
+eas build:configure
+```
+
+#### Configure o _build_ EAS
+
+```bash
+eas build:configure
+```
 
 Está tudo configurado no Expo para executar o _build_ no servidor e enviar para a loja de aplicativos. Basta rodar os comandos para **build** e **submit**:
 

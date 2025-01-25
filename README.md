@@ -3,7 +3,7 @@
 É feito com algumas libs pré instaladas, como styled-components e principais do expo.
 Utiliza o OneSignal para Push Notification.
 
-# app.config.js
+## app.config.js
 
 É utilizado em JS ao invés do JSON, para que possa utilizar variáveis de ambiente. Com js fica bem mais flexível.
 
